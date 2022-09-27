@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+   font-family: 'sf-pro';
+   font-style: normal;
+   font-weight: 400;
+   font-display: swap;
+   src: url(../assets/fonts/sf-pro-display_regular.woff2) format('woff2');
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
+body {
+   font-family: 'sf-pro', Helvetica, Arial, sans-serif;
+}
